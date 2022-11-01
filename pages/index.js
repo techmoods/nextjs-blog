@@ -22,10 +22,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p className='py-6'>Hello, I'm <strong>Brandon</strong>. I'm a web developer and technology coordinator for a public library district. You can contact me at <a href="mailto:brandon@pikelibrary.org">brandon@pikelibrary.org</a>.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
